@@ -31,4 +31,7 @@ print(x.sum(1)) #按行求和
 print(torch.sum(x))   #按列求和
 print(torch.sum(x, 0))#按列求和
 print(torch.sum(x, 1))#按行求和
+
+torch.neg(input, out=None):
+返回一个新张量，包含输入input张量按元素取负
   
