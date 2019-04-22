@@ -16,7 +16,7 @@ torch.squeeze()
     返回去掉为1的维度的a
     
 torch.add(a,b):求和
-torch.div(a,b):求商
+torch.div(a,b):求商    a为tensor的话，返回tensor中每个元素分别除以
 torch.mul(a,b):求积（不一定是矩阵）
 torch.pow(a,b):求幂   a为tensor的话，返回tensor中每个元素分别平方
 torch.mm(a,b)：求积（按矩阵和矩阵之间的规则做）
