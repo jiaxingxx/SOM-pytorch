@@ -14,5 +14,11 @@ torch.squeeze()
 对数据维度进行解压
 用法： a.squeeze()
     返回去掉为1的维度的a
-
+    
+torch.add(a,b):求和
+torch.div(a,b):求商
+torch.mul(a,b):求积（不一定是矩阵）
+torch.pow(a,b):求幂
+torch.mm(a,b)：求积（按矩阵和矩阵之间的规则做）
+torch.mv(a,b):求积（按矩阵和向量之间的规则做）
   
