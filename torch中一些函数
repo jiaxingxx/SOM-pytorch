@@ -21,4 +21,14 @@ torch.mul(a,b):求积（不一定是矩阵）
 torch.pow(a,b):求幂   a为tensor的话，返回tensor中每个元素分别平方
 torch.mm(a,b)：求积（按矩阵和矩阵之间的规则做）
 torch.mv(a,b):求积（按矩阵和向量之间的规则做）
+
+torch.sum(input, dim, out=None) → Tensor
+input (Tensor) – 输入张量
+dim (int) – 缩减的维度
+out (Tensor, optional) – 结果张量
+print(x.sum(0)) #按列求和
+print(x.sum(1)) #按行求和
+print(torch.sum(x))   #按列求和
+print(torch.sum(x, 0))#按列求和
+print(torch.sum(x, 1))#按行求和
   
