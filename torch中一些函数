@@ -9,4 +9,10 @@ torch.min()
 选择最小值
 用法：min( (a), 0)
     返回tensor中最小值，以及索引
+    
+torch.squeeze()
+对数据维度进行解压
+用法： a.squeeze()
+    返回去掉为1的维度的a
+
   
