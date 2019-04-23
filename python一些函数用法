@@ -1,3 +1,9 @@
 yield函数：
-1.生成器
+1.生成器，一种高效操作，生成SOM所有神经元位置
 2.return
+
+super（）
+调用基类的一个方法，解决多继承的问题,super寻找type的父类
+用法：
+super(type[,object-or-type])
+
