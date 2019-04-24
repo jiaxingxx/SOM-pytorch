@@ -7,3 +7,12 @@ super（）
 用法：
 super(type[,object-or-type])
 
+lambda
+匿名函数，不用命名的简短函数
+用法：lambda x:do_something x
+表示lambda前输入为x，输出do_something x
+例如：
+min([i for i in range(len(self.weights))],
+                            key=lambda x: np.linalg.norm(vect - self.weights[x]))
+
+
