@@ -1,0 +1,33 @@
+matplotlib.pyplot.imshow()
+将一个image显示在二维坐标轴上
+用法：
+matplotlib.pyplot.imshow(
+    X, 
+    cmap=None, 
+    norm=None, 
+    aspect=None, 
+    interplotation=None, 
+    alpha=None, 
+    Vmin=None, 
+    vmax= None, 
+    origin=None, 
+    extent=None, 
+    shape=None, 
+    filternorm=1, 
+    filterrad=4.0, 
+    imlim=None, 
+    resample=None,
+    url=None, 
+    hold=None, 
+    data=None, **kwargs)
+    
+- X：类数组对象(array_like)，shape(n,m) 或者(n,m,3)或者(n,m,4)
+
+    把X表示的图片显示在当前坐标轴中。X可以是类数组形式、或者PIL图片。如果X是类数组，它可以有如下3种情况&类型：
+·  MxN - 用来作图的类数组值：float类型 / INT类型   
+
+· MxNx3 - RGB类数组值：float类型 / unit8类型 
+
+· MxNx4 - RGBA类数组值：float类型 /  unit8类型
+
+MxNx3和MxNx4的float类型类数组，取值范围限定为[0.0, 1.0]。MxN类数组是基于norm(采用标量对映射到标量方法作图)和cmap（将标准化标量映射为颜色）。
