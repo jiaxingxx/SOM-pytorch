@@ -32,4 +32,7 @@ start下标起始位置
 1 two
 2 three
 
-
+创建list
+a=list()
+然后添加值要用append
+a.append()
