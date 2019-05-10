@@ -5,3 +5,6 @@ CUDA™是一种由NVIDIA推出的通用并行计算架构，该架构使GPU能�
 
 查看显卡支持的
 (https://jingyan.baidu.com/article/d169e1861b759f436611d882.html)
+
+查看cuda是否安装
+
