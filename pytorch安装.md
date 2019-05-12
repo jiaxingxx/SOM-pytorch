@@ -40,4 +40,4 @@ Anaconda则是一个打包的集合，里面预装好了conda、某个版本的p
 
      在anaconda命令窗口中，输入pip install gensim
 
-
+使用conda命令安装总是报http错误，在anaconda prompt下使用pip安装，完美解决了我的问题
