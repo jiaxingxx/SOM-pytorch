@@ -27,4 +27,5 @@ gpu_info = Variable(torch.randn(3,3)).cuda()
 # 将变量或者数据移到CPU
 cpu_info = gpu_info.cpu()
 
+2.在PyTorch中使用GPU和TensorFlow中不同，在TensorFlow如果不对设备进行指定时，TensorFlow检测到GPU就会把自动将数据与运算转移到GPU中。而PyTorch类似于MxNet，需要显性的指定数据和运算放在哪里执行，这样的操作比较自由，却也有些繁琐。因为如果哪一步忘记转换了就会运行出错。
 
