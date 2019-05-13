@@ -29,3 +29,4 @@ cpu_info = gpu_info.cpu()
 
 2.在PyTorch中使用GPU和TensorFlow中不同，在TensorFlow如果不对设备进行指定时，TensorFlow检测到GPU就会把自动将数据与运算转移到GPU中。而PyTorch类似于MxNet，需要显性的指定数据和运算放在哪里执行，这样的操作比较自由，却也有些繁琐。因为如果哪一步忘记转换了就会运行出错。
 
+3.对于自己创建的模型类，由于继承了torch.nn.Module，则可同样使用.cuda()来将模型中用到的所有参数都存储到显存中去。
