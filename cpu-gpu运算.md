@@ -6,6 +6,7 @@
 首先需要确定自己的pytorch版本能否进行gpu计算。
 
 print (torch.cuda.is_available())
+
 1
 如果结果是True，则可以进行gpu计算，如果是False,就需要安装gpu版本的torch或是CUDA了。还可以通过
 
