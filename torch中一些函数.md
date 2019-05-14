@@ -48,3 +48,15 @@ x.repeat(4,2)
 x.repeat(4)
 1 2 3 1 2 3 1 2 3 1 2 3
 一个参数默认横向重复几次
+
+
+torch.norm(input, p, dim, out=None,keepdim=False) → Tensor
+返回输入张量给定维dim 上每行的p 范数。 
+
+参数：
+
+input (Tensor) – 输入张量
+p (float) – 范数计算中的幂指数值
+dim (int) – 缩减的维度
+out (Tensor, optional) – 结果张量
+keepdim（bool）– 保持输出的维度  （此参数官方文档中未给出，但是很常用）
