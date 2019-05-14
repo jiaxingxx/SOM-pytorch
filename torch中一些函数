@@ -4,6 +4,8 @@ stack堆叠的意思，函数用于合并tensor块
     一般默认dim=0，表示纵轴方向，y轴方向，竖轴方向
 骚气用法： stack(  [a for i in range(number)] )
     表示将tensor a 复制了number遍，然后合并在一起
+也可以将多个tensor合并，stack([m for i,m in enumerate(A)] )
+    表示A中含有多个tensor，沿纵轴合并
     
 torch.min()
 选择最小值
