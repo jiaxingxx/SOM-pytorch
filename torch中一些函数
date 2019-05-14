@@ -60,3 +60,14 @@ p (float) – 范数计算中的幂指数值
 dim (int) – 缩减的维度
 out (Tensor, optional) – 结果张量
 keepdim（bool）– 保持输出的维度  （此参数官方文档中未给出，但是很常用）
+
+import torch
+import torch.tensor as tensor
+ 
+a = tensor([[1, 2, 3, 4],
+        [1, 2, 3, 4]]).float()  #norm仅支持floatTensor,a是一个2*4的Tensor
+a0 = torch.norm(a,p=2,dim=0)    #按0维度求2范数
+a1 = torch.norm(a,p=2,dim=1)    #按1维度求2范数
+print(a0)
+print(a1)
+
