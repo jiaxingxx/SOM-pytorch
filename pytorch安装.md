@@ -43,3 +43,16 @@ Anaconda则是一个打包的集合，里面预装好了conda、某个版本的p
 使用conda命令安装总是报http错误，在anaconda prompt下使用pip安装，完美解决了我的问题
 
 电脑里只有anaconda时，cmd的pip也可以安装pytorch到anaconda环境中
+
+
+1.卸载Pytorch
+
+使用conda卸载Pytorch
+
+conda uninstall pytorch
+
+conda uninstall libtorch
+
+使用pip卸载Pytorch
+
+pip uninstall torch
