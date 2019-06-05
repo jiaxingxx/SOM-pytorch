@@ -56,3 +56,5 @@ conda uninstall libtorch
 使用pip卸载Pytorch
 
 pip uninstall torch
+
+安装问题详细(https://blog.csdn.net/aa3615058/article/details/89339790#condavitualenvpipenv__10)
