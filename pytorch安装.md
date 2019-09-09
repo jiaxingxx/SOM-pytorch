@@ -19,6 +19,8 @@ https://pytorch.org/
 
 # 国内安装conda方式太慢，基本会失败，所以用pip安装比较好
 
+anaconda prompt可以敲pip安裝，但会安装到系统python3的安装路径中，要想安装在anaconda中，还是用conda
+
 Anaconda是一个用于科学计算的Python发行版，支持 Linux, Mac, Windows系统，
 提供了包管理与环境管理的功能，可以很方便地解决多版本python并存、切换以及各
 种第三方包安装问题。
