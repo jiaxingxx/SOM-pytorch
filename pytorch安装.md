@@ -1,6 +1,7 @@
 pytorch可以使用cpu 和gpu
 
-CUDA（Compute Unified Device Architecture），是显卡厂商NVIDIA推出的运算平台。
+# CUDA（Compute Unified Device Architecture），
+是显卡厂商NVIDIA推出的运算平台。
 CUDA™是一种由NVIDIA推出的通用并行计算架构，该架构使GPU能够解决复杂的计算问题。
 
 查看显卡支持的
@@ -16,7 +17,7 @@ CUDA™是一种由NVIDIA推出的通用并行计算架构，该架构使GPU能�
 https://pytorch.org/
 
 
-国内安装conda方式太慢，基本会失败，所以用pip安装比较好
+# 国内安装conda方式太慢，基本会失败，所以用pip安装比较好
 
 Anaconda是一个用于科学计算的Python发行版，支持 Linux, Mac, Windows系统，
 提供了包管理与环境管理的功能，可以很方便地解决多版本python并存、切换以及各
