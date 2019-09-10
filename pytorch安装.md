@@ -1,3 +1,8 @@
+
+
+
+
+
 pytorch可以使用cpu 和gpu
 
 # CUDA（Compute Unified Device Architecture），
@@ -52,6 +57,12 @@ Anaconda则是一个打包的集合，里面预装好了conda、某个版本的p
 使用conda命令安装总是报http错误，在anaconda prompt下使用pip安装，完美解决了我的问题
 
 电脑里只有anaconda时，cmd的pip也可以安装pytorch到anaconda环境中
+
+# miniconda
+
+是简化版anaconda，下载安装后自带base环境，一般创建项目环境，然后激活项目环境，使每个项目之间不干扰，
+
+详细官方文档(https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#managing-packages)
 
 
 1.卸载Pytorch
