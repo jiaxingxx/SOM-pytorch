@@ -78,3 +78,8 @@ conda uninstall libtorch
 pip uninstall torch
 
 安装问题详细(https://blog.csdn.net/aa3615058/article/details/89339790#condavitualenvpipenv__10)
+
+
+# 安装PyG
+
+(https://github.com/rusty1s/pytorch_geometric/issues/633#issuecomment-523323111)
