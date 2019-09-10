@@ -98,13 +98,13 @@ pip uninstall torch
 
 miniconda安装，anaconda prompt创建项目环境，激活项目环境
 
-conda install numpy
-conda install pytorch torchvision cpuonly -c pytorch
-pip install --verbose --no-cache-dir torch-scatter
-pip install --verbose --no-cache-dir torch-sparse
-pip install --verbose --no-cache-dir torch-cluster
-pip install --verbose --no-cache-dir torch-spline-conv
-pip install plyfile
-pip install rdflib
-pip install torch-geometric
-(https://github.com/rusty1s/pytorch_geometric/issues/633#issuecomment-523323111)
+	conda install numpy
+	conda install pytorch torchvision cpuonly -c pytorch
+	pip install --verbose --no-cache-dir torch-scatter
+	pip install --verbose --no-cache-dir torch-sparse
+	pip install --verbose --no-cache-dir torch-cluster
+	pip install --verbose --no-cache-dir torch-spline-conv
+	pip install plyfile
+	pip install rdflib
+	pip install torch-geometric
+详细参考 (https://github.com/rusty1s/pytorch_geometric/issues/633#issuecomment-523323111)
