@@ -66,10 +66,18 @@ Anaconda则是一个打包的集合，里面预装好了conda、某个版本的p
 
 详细官方文档(https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#managing-packages)
 
+## 如何防止打开终端Conda默认激活基本环境
+
+当你安装好Anaconda，每次打开终端都会自动帮你激活基本环境（base），有时候确实自己不需要激活Conda环境（因为打开终端不一定要用到 Python），而且该项操作还会拖慢打开的终端的响应速度，十分烦人，经过网上查找方案，直接在终端输入：
+
+	conda config --set auto_activate_base false
+
+第一次运行它时，它将在主目录中创建./condarc，并使用该设置覆盖默认值。
 
 
 
-1.卸载Pytorch
+
+# 1.卸载Pytorch
 
 使用conda卸载Pytorch
 
