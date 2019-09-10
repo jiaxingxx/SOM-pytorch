@@ -62,7 +62,11 @@ Anaconda则是一个打包的集合，里面预装好了conda、某个版本的p
 
 是简化版anaconda，下载安装后自带base环境，一般创建项目环境，然后激活项目环境，使每个项目之间不干扰，
 
+命令行默认一开始在base环境操作，此时conda install 会安装在base环境中，需要cd 到自己建的项目环境中，指定环境中conda install
+
 详细官方文档(https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#managing-packages)
+
+
 
 
 1.卸载Pytorch
