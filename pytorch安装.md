@@ -76,7 +76,13 @@ Anaconda则是一个打包的集合，里面预装好了conda、某个版本的p
 
 是简化版anaconda，下载安装后自带base环境，一般创建项目环境，然后激活项目环境，使每个项目之间不干扰，
 
-命令行默认一开始在base环境操作，此时conda install 会安装在base环境中，需要cd 到自己建的项目环境中，指定环境中conda install
+有时侯我们需要指定环境的路径，因此可以使用命令：
+
+conda create  -p /opt/environment/.conda/envs/env_name 
+
+以上命令创建一个名字为env_name的环境。env_name可自定义，可以为keras, tensorflow, my_tensorflow等等。
+
+命令行默认一开始在base环境操作，此时conda install 会安装在base环境中，一定要激活项目环境
 
 详细官方文档(https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#managing-packages)
 
