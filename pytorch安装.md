@@ -86,6 +86,10 @@ conda create  -p /opt/environment/.conda/envs/env_name
 
 详细官方文档(https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#managing-packages)
 
+### conda 创建/删除/重命名 环境
+
+详细链接 https://www.jianshu.com/p/7265011ba3f2
+
 ## 如何防止打开终端Conda默认激活基本环境
 
 当你安装好Anaconda，每次打开终端都会自动帮你激活基本环境（base），有时候确实自己不需要激活Conda环境（因为打开终端不一定要用到 Python），而且该项操作还会拖慢打开的终端的响应速度，十分烦人，经过网上查找方案，直接在终端输入：
