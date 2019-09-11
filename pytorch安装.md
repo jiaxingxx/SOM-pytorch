@@ -19,6 +19,12 @@ pytorch可以使用cpu 和gpu
 
 # 国内安装conda方式安装GPU版本太慢，基本会失败，所以用pip安装比较好
 
+pip install https://download.pytorch.org/whl/cu90/torch-1.1.0-cp36-cp36m-win_amd64.whl
+
+pip install https://download.pytorch.org/whl/cu90/torchvision-0.3.0-cp36-cp36m-win_amd64.whl
+
+注意torch版本和torchvision版本，python版本
+
 安装cpu版本速度还可以
 
 anaconda prompt可以敲pip安裝，但会安装到系统python3的安装路径中，要想安装在anaconda中，还是用conda
