@@ -90,6 +90,8 @@ conda create  -p /opt/environment/.conda/envs/env_name
 
 命令行默认一开始在base环境操作，此时conda install 会安装在base环境中，一定要激活项目环境
 
+### 激活环境，可以写全路径激活指定目录的环境
+
 详细官方文档(https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#managing-packages)
 
 ### conda 创建/删除/重命名 环境
