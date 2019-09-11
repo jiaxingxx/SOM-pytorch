@@ -1,10 +1,3 @@
-
-
-
-
-
-pytorch可以使用cpu 和gpu
-
 # CUDA（Compute Unified Device Architecture），
 是显卡厂商NVIDIA推出的运算平台。
 CUDA™是一种由NVIDIA推出的通用并行计算架构，该架构使GPU能够解决复杂的计算问题。
@@ -18,13 +11,32 @@ CUDA™是一种由NVIDIA推出的通用并行计算架构，该架构使GPU能�
 
 ![image](https://github.com/jiaxingxx/SOM-pytorch/blob/master/1.jfif)
 
-安装pytorch
-https://pytorch.org/
+# 安装pytorch
 
+pytorch可以使用cpu 和gpu
 
-# 国内安装conda方式太慢，基本会失败，所以用pip安装比较好
+官网链接 https://pytorch.org/
+
+# 国内安装conda方式安装GPU版本太慢，基本会失败，所以用pip安装比较好
+
+安装cpu版本速度还可以
 
 anaconda prompt可以敲pip安裝，但会安装到系统python3的安装路径中，要想安装在anaconda中，还是用conda
+
+# 1.卸载Pytorch
+
+使用conda卸载Pytorch
+
+conda uninstall pytorch
+
+conda uninstall libtorch
+
+使用pip卸载Pytorch
+
+pip uninstall torch
+
+安装问题详细(https://blog.csdn.net/aa3615058/article/details/89339790#condavitualenvpipenv__10)
+
 
 # pip 将 某包指定到某目录  
 
@@ -32,7 +44,9 @@ anaconda prompt可以敲pip安裝，但会安装到系统python3的安装路径�
 
 pip install --target=d:\somewhere\other\than\the\default package_name
 
-Anaconda是一个用于科学计算的Python发行版，支持 Linux, Mac, Windows系统，
+# Anaconda
+
+是一个用于科学计算的Python发行版，支持 Linux, Mac, Windows系统，
 提供了包管理与环境管理的功能，可以很方便地解决多版本python并存、切换以及各
 种第三方包安装问题。
 Anaconda利用工具/命令conda来进行package和environment的管理，并且已经包含
@@ -73,23 +87,6 @@ Anaconda则是一个打包的集合，里面预装好了conda、某个版本的p
 	conda config --set auto_activate_base false
 
 第一次运行它时，它将在主目录中创建./condarc，并使用该设置覆盖默认值。
-
-
-
-
-# 1.卸载Pytorch
-
-使用conda卸载Pytorch
-
-conda uninstall pytorch
-
-conda uninstall libtorch
-
-使用pip卸载Pytorch
-
-pip uninstall torch
-
-安装问题详细(https://blog.csdn.net/aa3615058/article/details/89339790#condavitualenvpipenv__10)
 
 
 # 安装PyG
