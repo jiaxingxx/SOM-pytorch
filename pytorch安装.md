@@ -123,3 +123,7 @@ miniconda安装，anaconda prompt创建项目环境，激活项目环境
 	pip install rdflib
 	pip install torch-geometric
 详细参考 (https://github.com/rusty1s/pytorch_geometric/issues/633#issuecomment-523323111)
+
+# 安装fast.ai
+
+详细链接 https://blog.csdn.net/yitanjiong4414/article/details/88430129
