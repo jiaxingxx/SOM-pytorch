@@ -94,7 +94,7 @@ conda create  -p /opt/environment/.conda/envs/env_name
 
 详细官方文档(https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#managing-packages)
 
-### conda 创建/删除/重命名 环境
+### conda 创建/删除/重命名 环境 （第二个项目环境注意加 -n）
 
 详细链接 https://www.jianshu.com/p/7265011ba3f2
 
