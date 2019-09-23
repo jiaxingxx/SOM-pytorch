@@ -15,9 +15,11 @@ CUDA™是一种由NVIDIA推出的通用并行计算架构，该架构使GPU能�
 
 CUDA要对应显卡驱动版本，更新显卡驱动版本，再安装对应CUDA版本
 
-详细链接
+### 更新显卡驱动详细链接
 
-https://blog.csdn.net/zhw864680355/article/details/90411288
+https://jingyan.baidu.com/article/676629979bf19054d41b8460.html
+
+cuda 版本安装  https://blog.csdn.net/zhw864680355/article/details/90411288
 
 # 安装pytorch
 
