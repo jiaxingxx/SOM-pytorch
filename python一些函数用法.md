@@ -52,8 +52,10 @@ def isValid(s: 'str') -> 'bool':
 
 效果上其实没有区别
 
-  def twoSum(num1: int, num2: int=100) -> int:
+def twoSum(num1: int, num2: int=100) -> int:
+
     sum = num1 + num2
+    
     return sum
     
 注释内容后可以跟等号"=",意思为未传入实参时，该参数获得的默认值
