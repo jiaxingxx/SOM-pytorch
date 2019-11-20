@@ -36,3 +36,18 @@ start下标起始位置
 a=list()
 然后添加值要用append
 a.append()
+
+
+# python 函数定义后的箭头什么意思？函数参数和返回值的注解形式
+
+def isValid(s: 'str') -> 'bool':
+
+    return s
+
+这里的参数：‘注解内容’ 和 箭头‘注解内容’的用法是为标注了参数和返回值的类型，使代码更具有阅读性
+
+和 def isValid(s):
+
+        return s
+
+效果上其实没有区别
