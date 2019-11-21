@@ -91,3 +91,8 @@ def isValid(s: 'str') -> 'bool':
 
 可以看出实际上，args传递任意多个无名参数就是tuple类型，kwargs传递关键字参数就是dict类型。
 所以实际上*参数1传递的就是tuple，而**参数2传递的就是dict。
+
+
+# Python中“if __name__=='__main__':”理解与总结
+
+https://www.cnblogs.com/chenhuabin/p/10118199.html
