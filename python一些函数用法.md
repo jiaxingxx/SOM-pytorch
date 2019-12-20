@@ -109,3 +109,30 @@ https://www.cnblogs.com/chenhuabin/p/10118199.html
   python -W ignore file.py
   
 https://blog.csdn.net/xiaodongxiexie/article/details/65646239
+
+# Python os.rename() 重命名目录和文件
+
+概述
+
+os.rename() 方法用于重命名文件或目录，从 src 到 dst,如果dst是一个存在的目录, 将抛出OSError。
+
+语法
+
+rename()方法语法格式如下：
+
+  os.rename(src, dst)
+  
+参数
+
+src – 要修改的目录名
+dst – 修改后的目录名
+
+返回值
+
+该方法没有返回值
+
+该方法 可以重命名 文件 和目录，
+如果 src参数 对应文件或目录，不存在，会保错，
+如果 dst 参数 对应文件或目录，已经存在，也会报错
+
+https://blog.csdn.net/wowocpp/article/details/79460407
