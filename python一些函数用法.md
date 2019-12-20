@@ -96,3 +96,16 @@ def isValid(s: 'str') -> 'bool':
 # Python中“if __name__=='__main__':”理解与总结
 
 https://www.cnblogs.com/chenhuabin/p/10118199.html
+
+
+# Python如何忽略warning的输出
+
+  import warnings
+
+  warnings.filterwarnings('ignore')
+
+命令行下：
+
+  python -W ignore file.py
+  
+https://blog.csdn.net/xiaodongxiexie/article/details/65646239
