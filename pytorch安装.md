@@ -29,6 +29,10 @@ pytorch可以使用cpu 和gpu
 
 之前如果安装的一些python的包没有卸掉，是32位的，可能会导致环境混乱
 
+国内安装conda 安装GPU版，考虑清华镜像安装 https://blog.csdn.net/zzq060143/article/details/88042075
+
+https://blog.csdn.net/zxxxiazai/article/details/98044527
+
 # 国内安装conda方式安装GPU版本太慢，基本会失败，所以用pip安装比较好
 
 pip install https://download.pytorch.org/whl/cu90/torch-1.1.0-cp36-cp36m-win_amd64.whl
