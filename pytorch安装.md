@@ -45,6 +45,8 @@ pip install https://download.pytorch.org/whl/cu90/torchvision-0.3.0-cp36-cp36m-w
 
 anaconda prompt可以敲pip安裝，但会安装到系统python3的安装路径中，要想安装在anaconda中，还是用conda
 
+ pip 使用.whl文件安装torch和pytorch的方法  https://www.cnblogs.com/wanghui-garcia/p/11195207.html
+
 ## 测试pytorch的Gpu版本安装是否成功
 
 import torch
